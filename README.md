@@ -1,4 +1,4 @@
-# 🎩 Gentleman’s Closet Oujda &nbsp;|&nbsp; Styliste virtuel 🤖 powered by Gemini
+# 🎩 (demo)Gentleman’s Closet Oujda &nbsp;|&nbsp; Styliste virtuel 🤖 powered by Gemini
 
 > **Prototype académique** réalisé dans le cadre du PFA 2024-2025 – ENSA Oujda  
 
