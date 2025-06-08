@@ -52,21 +52,7 @@ Edit
 # 1. Cloner le dépôt
 git clone https://github.com/ENSOujda/gentlemans-closet.git
 cd gentlemans-closet
-
-# 2. Installer les dépendances
-npm install
-
-# 3. Renseigner la clé Gemini dans un fichier .env
-echo "GEMINI_API_KEY=sk-********************************" > .env
-
-# 4. Lancer le serveur de dev
-npm run dev
-Scripts utiles :
-
-Script	Description
-npm run dev	Serveur Vite + HMR 🔥
-npm run build	Build production optimisé
-npm run serve	Pré-visualisation du build
+...
 
 ☁️ Déploiement Netlify
 Forkez le repo, connectez-le à Netlify.
@@ -77,21 +63,7 @@ Ajoutez la variable d’env. GEMINI_API_KEY dans Site Settings → Environment.
 
 L’Edge Function netlify/functions/chat.ts proxyfie vos requêtes.
 
-📂 Structure
-bash
-Copy
-Edit
-gentlemans-closet/
-├─ public/                # Favicons, robots.txt…
-├─ src/
-│  ├─ assets/             # Logos & illustrations
-│  ├─ components/         # ChatWidget.jsx, ProductCard.jsx…
-│  ├─ pages/              # Home.jsx, Catalog.jsx
-│  └─ main.js             # Point d’entrée Vite
-├─ netlify/functions/     # Edge Function proxy Gemini
-└─ vite.config.js
-🖼️ Captures
-Accueil	Catalogue	Réponse IA
+
 
 👥 Équipe projet
 	Nom
@@ -99,14 +71,6 @@ Accueil	Catalogue	Réponse IA
 	Abdellah Aazdag
 	Achraf Abidi
 
-🤝 Contribuer
-git checkout -b feature/ma-feature
-
-git commit -m "feat: courte description ✨"
-
-git push origin feature/ma-feature et ouvrez une pull-request.
-
-Tous les retours sont bienvenus !
 
 📜 Licence
 Distribué sous licence MIT – libre reproduction, attribution requise.
